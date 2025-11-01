@@ -7,9 +7,9 @@ sfr = SimpleFacerec()
 sfr.load_encoding_images("newImages/")
 
 # Open camera (try 0, then 1)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 if not cap.isOpened():
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
 window_name = "Top Five Matches"
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)

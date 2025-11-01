@@ -46,9 +46,9 @@ while True:
         print(averaged_face_names)
 
         # for i, (name, distance) in enumerate(possible_names):
-        #     cv2.putText(frame, f"{i + 1}. {name}; confidence {round(distance, 4)}", (x1, y1 - 150 + 30*i), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 200), 2)
+        #     cv2.putText(frame, f"{i + 1}. {name}; confidence {round(distance, 4)}", (x1, y1 - 150 + 30*i), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 255), 2)
         for i, (name, distance) in enumerate(possible_names):
-            cv2.putText(frame, f"{i + 1}. {name}; confidence {round(distance, 4)}", (x1, y1 - 150 + 30*i), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 200), 2)
+            cv2.putText(frame, f"{i + 1}. {name}; confidence {round(distance, 4)}", (x1, y1 - 150 + 30*i), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 255), 2)
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 200), 4)
 
     cv2.imshow("Frame", frame)
