@@ -3,7 +3,7 @@ import json
 
 # Encode faces from a folder
 sfr = SimpleFacerec()
-sfr.load_encoding_images("images/")
+sfr.load_encoding_images("newImages/")
 
 comparisons = sfr.comparisons()
 with open('./comparisons.json', 'w', encoding='utf-8') as f:

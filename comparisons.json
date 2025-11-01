@@ -1,0 +1,27 @@
+[
+    {
+        "self": "Rich Q Y Zhou '26",
+        "match": "Ryan Bai '26",
+        "distance": 0.5718656789121935
+    },
+    {
+        "self": "Ryan Bai '26",
+        "match": "Rich Q Y Zhou '26",
+        "distance": 0.5718656789121935
+    },
+    {
+        "self": "Jeremy Alem Tadesse '26",
+        "match": "Zohan Subhash '26",
+        "distance": 0.6858929482400622
+    },
+    {
+        "self": "Zohan Subhash '26",
+        "match": "Jeremy Alem Tadesse '26",
+        "distance": 0.6858929482400622
+    },
+    {
+        "self": "Julia Horobets '26",
+        "match": "Rich Q Y Zhou '26",
+        "distance": 0.8014709879535155
+    }
+]
